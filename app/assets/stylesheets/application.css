@@ -1,0 +1,100 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body {
+  padding-top: 60px;
+  background-color: #dddfd4;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.navbar-inverse{
+  background-color: #173e43;
+  color: #F16745;
+}
+
+#logo {
+  position: absolute;
+  left: 20px;
+  text-align: center;
+  margin: auto;
+  float: left;
+  font-size: 2.0em;
+  color:  #fae596;
+  text-transform: uppercase;
+  letter-spacing: -7px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+#logo:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navbar-text {
+  font-size: 2.0em;
+     color: #fae596;
+}
+
+.navbar .nav > li > a {
+    color:  #fae596;
+}
+
+.jumbotron
+{
+  background-color: #3fb0ac;
+  color: #fae596 ;
+}
+
+.btn {
+  background-color:#173e43 ;
+  color:#3fb0ac ;
+}
+
+.btn:hover{
+  background-color:#fae596;
+  color: #3fb0ac;
+}
+
+
+
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+#error_explanation {
+  color: red;
+}
+#error_explanation.ul {
+    color: red;
+    width: 50%;
+    margin: 0 0 30px 0;
+}
+
+
+
+
+
