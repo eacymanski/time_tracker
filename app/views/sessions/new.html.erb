@@ -1,0 +1,18 @@
+<title>Log in</title>
+<div class="jumbotron center">
+   <% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <% end %>
+<h1>Log In</h1>
+<%=form_for(:sessions, url: login_path) do |f| %>
+  <%=f.label :email%><br>
+  <div id="black"><%=f.email_field :email%></div>
+  
+  <%=f.label :password%><br>
+  <div id="black"><%=f.password_field :password %></div>
+  
+  <%=f.submit "Log in", class: "btn btn-primary"%>
+<%end%>
+
+<p>New user? <%=link_to "Sign up now!", signup_path%></p>
+</div>

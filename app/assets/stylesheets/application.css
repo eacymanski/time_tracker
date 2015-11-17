@@ -72,9 +72,6 @@ textarea {
   color: #3fb0ac;
 }
 
-
-
-
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 50%;
@@ -98,7 +95,22 @@ input {
   color:black;
 }
 
+.dropdown-menu {
+  background-color:#fae596;
+  color: #3fb0ac;
+}
 
+.dropdown-menu > li > a {
+  color: #3fb0ac;
+}
 
+.dropdown-menu > li > a:hover{
+  background-color:#173e43 ;
+  color: #3fb0ac;
+}
+
+.btn {
+  width: 200px;
+}
 
 

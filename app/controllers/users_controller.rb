@@ -28,6 +28,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
+        log_in @user
         format.html { redirect_to @user, notice: 'Welcome to Time Tracker 3000.' }
         format.json { render :show, status: :created, location: @user }
       else
