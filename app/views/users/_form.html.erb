@@ -30,6 +30,6 @@
     <div id="black"><%= f.password_field :password_confirmation %></div>
   </div>
   <div class="actions">
-   <%= f.submit "Create my account", class: "btn btn-primary" %>
+   <%= f.submit yield(:button_text), class: "btn btn-primary" %>
   </div>
 <% end %>
