@@ -1,2 +1,5 @@
-Time Tracker 3000
-Only front end and sign up implemented
+Time Tracker 3000 <br>
+Only front end and sign up/log in implemented <br>
+Based off Ruby on Rails Tutorial by Michael Hartl<br>
+<br>
+Eventually to be something to keep track of how you spend you time - sleeping, working, training, netflixing
