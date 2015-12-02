@@ -1,0 +1,14 @@
+<title>Forgotten password</title>
+<div class="jumbotron center">
+   <% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <% end %>
+<h1>Log In</h1>
+<%=form_for(:password_reset, url: password_resets_path) do |f| %>
+  <%=f.label :email%><br>
+  <div id="black"><%=f.email_field :email%></div>
+  
+  <%=f.submit "Submit", class: "btn btn-primary"%>
+<%end%>
+
+</div>
